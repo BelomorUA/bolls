@@ -24,7 +24,7 @@ This Laravel project provides a flexible and scalable architecture for integrati
 3. **Set up environment variables:**
    Copy the `.env.example` to `.env` and configure your environment variables, including database settings.
     ```bash
-    cp .env.example .env
+    copy .env.example .env
     php artisan key:generate
     ```
 
@@ -37,6 +37,14 @@ This Laravel project provides a flexible and scalable architecture for integrati
         'default_service' => 'nova_poshta', // Change to 'ukr_poshta' for UkrPoshta
     ];
     ```
+
+5. **Run laravel server:**
+```bash
+php artisan serve    
+```
+
+6. **Open project in your browser:**
+   http://127.0.0.1:8000/
 
 ## Usage
 
